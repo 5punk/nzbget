@@ -1,0 +1,23 @@
+{
+  "name": "nzbget",
+  "version": "1.0.0",
+  "description": "NZBGet is a binary downloader, which downloads files from Usenet based on information given in nzb-files.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "npm run update-timestamps && ./configure && make",
+    "update-timestamps": "touch aclocal.m4 configure Makefile.in config.h.in"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nzbget/nzbget.git"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/nzbget/nzbget/issues"
+  },
+  "homepage": "https://github.com/nzbget/nzbget#readme"
+}
